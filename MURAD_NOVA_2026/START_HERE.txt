@@ -1,0 +1,49 @@
+THE MURAD HOUSE — MURAD NOVA 2026
+=================================
+
+START FROM ZERO IN VS CODE
+1. Download MURAD_NOVA_2026.zip and right-click > Extract All.
+2. Open Visual Studio Code.
+3. File > Open Folder > select the extracted MURAD_NOVA_2026 folder.
+4. Right-click index.html > Open with Live Server.
+   If missing, install the Live Server extension in VS Code.
+5. Make sure index.html, style.css, script.js and assets/murad-logo.jpeg are together.
+
+YOUR WEBSITE INCLUDES
+- Animated home page with large coffee photo
+- Original MURAD logo (assets/murad-logo.jpeg)
+- 13 menu products, your exact prices and category filters
+- Your story from 2018, and future franchise ambition
+- Motivational messages that change with a button
+- Printable QR code generator (after publishing)
+- Instagram, phone, and location links
+- Responsive design and reduced-motion support
+
+HOW TO PUBLISH ON GITHUB PAGES
+1. Open your GitHub repository in a browser.
+2. Add file > Upload files.
+3. Upload index.html, style.css, script.js and the assets folder.
+   All three code files must be at the repository ROOT, not inside a second folder.
+4. Commit changes.
+5. Settings > Pages > Build and deployment > Deploy from a branch.
+6. Select main and /(root) > Save.
+7. Wait for the published URL to appear. Open it on your phone.
+8. Scroll to 'A SCAN. A SMILE.' and click GENERATE CUP QR.
+9. Click DOWNLOAD PNG. Test it with your phone before printing.
+
+CUSTOMIZATION
+- Logo: replace assets/murad-logo.jpeg with a new file of the same name.
+- Menu: edit the menuItems array at the top of script.js.
+- Quotes: edit the messages array in script.js.
+- Colors: edit the CSS variables at the top of style.css.
+- Photos: edit image URLs in index.html or photo IDs in script.js.
+- Contact: edit Instagram, Google Maps search link, and phone in index.html.
+
+IMPORTANT
+- Photos are illustrative remote Unsplash images, not photos of your actual products.
+  They need internet access. Replace them with real photos before a final launch.
+- QR generation requires the QRCode library CDN and internet access.
+- QR generation intentionally does not work on Live Server / localhost because
+  customers cannot open your local computer from a cup sticker.
+- QR codes should always point to the final stable public website URL.
+- The website uses free Google Fonts and Unsplash images loaded from the internet.
